@@ -116,15 +116,17 @@ Start development server
 
 npm run dev
 
-📸 Screenshots
+ # 📸 Screenshots
+<img width="1906" height="850" alt="Screenshot 2025-12-09 141305" src="https://github.com/user-attachments/assets/371a6920-72c4-4df1-8b1b-e5a66eb00c44" />
+<img width="1910" height="849" alt="Screenshot 2025-12-09 141240" src="https://github.com/user-attachments/assets/cb588e5f-9006-4fb9-910f-3e79823d48e0" />
+<img width="1910" height="849" alt="Screenshot 2025-12-09 141240" src="https://github.com/user-attachments/assets/3c0779c0-8b66-4363-99d8-49bd403fa981" />
 
-Replace these with your actual screenshots:
 
 Dashboard	Node Cluster	Login Page
 
 	
 	
-🎯 Purpose
+ # 🎯 Purpose
 
 This project is ideal for:
 
@@ -138,7 +140,7 @@ Understanding DFS concepts through visual simulation
 
 It combines technical depth with premium UI/UX for an immersive learning experience.
 
-🤝 Contributing
+# 🤝 Contributing
 
 Contributions, feature requests, and feedback are welcome!
 Open an issue or submit a pull request.
