@@ -36,3 +36,10 @@ GEMINI_API_KEY=your_api_key_here
 Start the development server:
 
 npm run dev
+
+
+# project outlook
+<img width="1906" height="850" alt="Screenshot 2025-12-09 141305" src="https://github.com/user-attachments/assets/cc3d91d0-b82d-4a10-813f-b6289c841f35" />
+<img width="1910" height="849" alt="Screenshot 2025-12-09 141240" src="https://github.com/user-attachments/assets/202ac790-c457-4a60-877d-f2aa8e4f8621" />
+<img width="1910" height="849" alt="Screenshot 2025-12-09 141240" src="https://github.com/user-attachments/assets/bfc42cb9-9fed-4fa6-a2ec-ac2fcfb8a3cf" />
+
