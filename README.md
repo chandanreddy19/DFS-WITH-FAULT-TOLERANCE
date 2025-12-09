@@ -1,3 +1,5 @@
+Distributed File System (DFS) with Fault Tolerance — Visual Simulator
+
 This project is an interactive Distributed File System (DFS) Fault-Tolerance Simulator built with React, TypeScript, and TailwindCSS. It visually demonstrates how distributed storage systems manage replication, auto-healing, node failures, rack awareness, and data integrity.
 
 Designed with a premium glassmorphism + neon UI, the simulator makes complex distributed system concepts easy to learn and fun to explore.
