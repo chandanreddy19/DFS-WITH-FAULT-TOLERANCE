@@ -1,86 +1,20 @@
-Distributed File System (DFS) with Fault Tolerance — Visual Simulator
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-This project is an interactive Distributed File System (DFS) Fault-Tolerance Simulator built with React, TypeScript, and TailwindCSS. It visually demonstrates how distributed storage systems manage replication, auto-healing, node failures, rack awareness, and data integrity.
+# Run and deploy your AI Studio app
 
-Designed with a premium glassmorphism + neon UI, the simulator makes complex distributed system concepts easy to learn and fun to explore.
+This contains everything you need to run your app locally.
 
-🚀 Features
-🔹 Core System
+View your app in AI Studio: https://ai.studio/apps/drive/1q_I0LLCO-0Mf_EEDsjvfGo9V_Sd_8Px7
 
-File upload with block splitting
+## Run Locally
 
-Block replication across nodes
+**Prerequisites:**  Node.js
 
-Auto-healing of missing/corrupted replicas
 
-Node failure & recovery simulation
-
-Rack-aware block placement
-
-Data integrity with checksum checks
-
-🔹 UI/UX Enhancements
-
-Futuristic glass + neon dashboard
-
-3D rotating DFS login animation
-
-Node capacity bars & heatmaps
-
-Real-time logs with terminal effects
-
-Interactive node cards & details modal
-
-Floating metrics HUD
-
-Smooth animations and micro-interactions
-
-🔹 Simulation Tools
-
-Toggle nodes on/off
-
-Inject corruption
-
-Rack-level outages
-
-Chaos mode (random failures)
-
-Read-file simulation with failure detection
-
-🛠️ Tech Stack
-
-React + TypeScript
-
-TailwindCSS
-
-Vite
-
-Optional: Framer Motion for animations
-
-📥 Installation & Running
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-📂 Project Structure
-src/
- ├── components/
- ├── visuals/
- ├── App.tsx
- ├── index.tsx
- └── styles/
-
-🎯 Purpose
-
-This simulator is designed to help students and developers understand real-world DFS concepts through interactive visualization. It's ideal for academic projects, demos, and learning distributed systems.
-
-🤝 Contributing
-
-Contributions and feature suggestions are welcome!
-Feel free to open issues or submit pull requests.
-
-⭐ Support
-
-If this project helped you, please star the repository — it motivates future improvements!
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
