@@ -1,45 +1,146 @@
+# 📦 Distributed File System (DFS) with Fault Tolerance — Visual Simulator
 
-Distributed File System (DFS) with Fault Tolerance — Visual Simulator
+A fully interactive **Distributed File System (DFS) Fault-Tolerance Simulator** built with **React, TypeScript, and TailwindCSS**. This project visually demonstrates how distributed systems such as **HDFS, Ceph, Google File System (GFS), and Cassandra** handle **replication, node failures, auto-healing, rack awareness, block distribution, and data integrity**.
 
-This project is an advanced Distributed File System (DFS) Fault-Tolerance Simulator designed to visually demonstrate how real-world distributed storage systems work, such as HDFS, Ceph, Google File System (GFS), and Cassandra. Built using React, TypeScript, and TailwindCSS, the simulator provides an immersive and interactive environment to explore key distributed system concepts, including replication, auto-healing, node failures, rack awareness, file distribution, and data integrity.
+Designed with a futuristic **neon + glassmorphism UI**, this simulator transforms complex system behaviors into clear, engaging visualizations.
 
-The system allows users to upload files, which are split into blocks and distributed across multiple nodes according to a configurable replication factor. When nodes fail or replicas are lost/corrupted, the simulator automatically detects the issue and triggers an auto-healing mechanism to restore availability and consistency. This brings concepts like fault tolerance, durability, and high availability to life through real-time visuals.
+---
 
-A major highlight of the project is its futuristic UI/UX, featuring glassmorphism, neon glows, soft transitions, and 3D animated elements. The login screen includes a rotating DFS node graphic, while the dashboard showcases animated clusters, real-time terminal-style logs, glowing block indicators, rack layouts, capacity heatmaps, micro-interactions, and seamless animations during node failures or recovery events.
+## 🌐 Live Demo  
+🔗 **https://dfs-with-fault-tolerance.netlify.app/**
 
-Users can toggle node status, inject corruption, simulate rack outages, or enable Chaos Mode, which randomly creates faults to test the resilience of the system. The dashboard also includes a floating metrics panel, detailed node information modals, and intelligent replica placement based on load and capacity.
+---
 
-This simulator is perfect for students and developers looking to understand distributed systems practically, build a strong academic project, or create a standout portfolio piece. It combines technical depth with premium UI/UX to make DFS concepts clear, engaging, and visually dynamic.
+## 📘 Table of Contents  
+- [✨ Overview](#-overview)  
+- [⚙️ Features](#️-features)  
+  - [1️⃣ Distributed Storage](#1️⃣-distributed-storage)  
+  - [2️⃣ Fault Tolerance](#2️⃣-fault-tolerance)  
+  - [3️⃣ Simulation Tools](#3️⃣-simulation-tools)  
+  - [4️⃣ UIUX Enhancements](#4️⃣-uiux-enhancements)  
+- [🛠 Tech Stack](#-tech-stack)  
+- [📂 Project Structure](#-project-structure)  
+- [🧪 Run Locally](#-run-locally)  
+- [📸 Screenshots](#-screenshots)  
+- [🎯 Purpose](#-purpose)  
+- [🤝 Contributing](#-contributing)  
+- [📄 License](#-license)
 
-🌐 Live Demo
+---
 
-View the live app:
-➡️ https://dfs-with-fault-tolerance.netlify.app/
+## ✨ Overview
 
-🛠 Run Locally
-Prerequisites:
+This simulator allows users to upload files, which are split into blocks and replicated across distributed nodes. If a node fails or a replica becomes corrupted, the system automatically detects the issue and triggers **auto-healing** to restore missing copies. This simulates real-world DFS behaviors like **high availability, durability, and fault tolerance**.
 
-Node.js installed
+With its advanced visualization engine and interactive dashboard, the project bridges the gap between theory and real distributed system behavior.
 
-Steps to Run
+---
 
-Install dependencies:
+## ⚙️ Features
 
-npm install
+### 1️⃣ Distributed Storage
+- File upload with block splitting  
+- Configurable replication factor  
+- Smart replica placement based on load  
+- Rack-aware distribution  
+- Visual block mappings for each node  
+
+### 2️⃣ Fault Tolerance
+- Node failure simulation  
+- Automatic detection of missing replicas  
+- Auto-healing and self-recovery  
+- Block corruption injection  
+- Checksum-based integrity verification  
+- Rack-level outages  
+
+### 3️⃣ Simulation Tools
+- Toggle nodes (active/dead)  
+- Enable **Chaos Mode** for random failures  
+- Read-file simulation with pass/fail outcome  
+- Floating live metrics panel  
+- Detailed modal for each node (capacity, blocks, health)  
+
+### 4️⃣ UIUX Enhancements
+- Glassmorphism + neon effects  
+- 3D rotating DFS animation on login page  
+- Animated cluster visualizer  
+- Terminal-style real-time logs  
+- Smooth transitions and micro-interactions  
+- Capacity heatmaps  
+- Fully responsive dashboard  
+
+---
+
+## 🛠 Tech Stack
+
+- **React.js**  
+- **TypeScript**  
+- **TailwindCSS**  
+- **Vite**  
+- **Framer Motion** (optional animations)
+
+---
+src/
+├── components/
+│ ├── NodeCard.tsx
+│ ├── FileUpload.tsx
+│ ├── LogsPanel.tsx
+│ ├── MetricsHUD.tsx
+│ └── DFS3DRotation.tsx
+├── visuals/
+├── utils/
+├── App.tsx
+├── index.tsx
+└── styles/
 
 
-Set your Gemini API key in .env.local:
+---
+
+## 🧪 Run Locally
+
+### Prerequisites  
+- Node.js installed
+
+### Steps  
+1. Install dependencies  
+   ```bash
+   npm install
+
+
+Add your Gemini API key in .env.local:
 
 GEMINI_API_KEY=your_api_key_here
 
 
-Start the development server:
+Start development server
 
 npm run dev
 
+📸 Screenshots
 
-# project outlook
-<img width="1906" height="850" alt="Screenshot 2025-12-09 141305" src="https://github.com/user-attachments/assets/cc3d91d0-b82d-4a10-813f-b6289c841f35" />
-<img width="1910" height="849" alt="Screenshot 2025-12-09 141240" src="https://github.com/user-attachments/assets/202ac790-c457-4a60-877d-f2aa8e4f8621" />
-<img width="1910" height="849" alt="Screenshot 2025-12-09 141240" src="https://github.com/user-attachments/assets/bfc42cb9-9fed-4fa6-a2ec-ac2fcfb8a3cf" />
+Replace these with your actual screenshots:
+
+Dashboard	Node Cluster	Login Page
+
+	
+	
+🎯 Purpose
+
+This project is ideal for:
+
+Students learning distributed systems
+
+Final-year academic projects
+
+Developers building advanced portfolio projects
+
+Understanding DFS concepts through visual simulation
+
+It combines technical depth with premium UI/UX for an immersive learning experience.
+
+🤝 Contributing
+
+Contributions, feature requests, and feedback are welcome!
+Open an issue or submit a pull request.
+## 📂 Project Structure
 
