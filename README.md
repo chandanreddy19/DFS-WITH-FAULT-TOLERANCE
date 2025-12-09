@@ -144,5 +144,3 @@ It combines technical depth with premium UI/UX for an immersive learning experie
 
 Contributions, feature requests, and feedback are welcome!
 Open an issue or submit a pull request.
-## 📂 Project Structure
-
